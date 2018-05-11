@@ -1,5 +1,5 @@
 var css = document.querySelector("h3"); // getting the h3 element
-var ColorValue = document.querySelector("h2");
+var ColorValue = document.querySelector(".colorvalue");
 var color1 = document.querySelector(".color1"); // getting the color input with the class of color1
 var color2 = document.querySelector(".color2"); // getting the color input with the class of color2
 var body = document.getElementById("gradient"); // getting the body element which was given the id 'gradient'
