@@ -1,4 +1,5 @@
 var css = document.querySelector("h3"); // getting the h3 element
+var ColorValue = document.querySelector("h2");
 var color1 = document.querySelector(".color1"); // getting the color input with the class of color1
 var color2 = document.querySelector(".color2"); // getting the color input with the class of color2
 var body = document.getElementById("gradient"); // getting the body element which was given the id 'gradient'
@@ -68,10 +69,12 @@ rndmGrdnt();//randomly setting the background color when the page loads... er re
  }
 function hexclr(){
      if (whchbtn===0){
-		 css.textContent = "linear-gradient(to right, " + clr1+ ", " + clr2+ "); //in hex color"; //showing body.style.background content but with hex values
+	     ColorValue.textContent = "Hexadecimal Color Values";
+		 css.textContent = "linear-gradient(to right, " + clr1+ ", " + clr2+ ");"; //showing body.style.background content but with hex values
 		 hxbtn.textContent="Show RBG Color Values";
 	} else{
-	 	 css.textContent = body.style.background + "; //in RGB color"; //putting the value of the body's style's background back into the h3 element with rgb color values
+		ColorValue.textContent = "RBG Color Values";
+	 	 css.textContent = body.style.background + ";"; //putting the value of the body's style's background back into the h3 element with rgb color values
 	 	  hxbtn.textContent="Show HEX Color Values";
 	 } 
 }
