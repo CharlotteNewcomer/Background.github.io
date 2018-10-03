@@ -1,0 +1,25 @@
+{
+  "name": "background",
+  "version": "1.0.0",
+  "description": "\"change background color\"",
+  "main": "\"\"",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FamNew/Background.github.io.git"
+  },
+  "keywords": [
+    "\"\""
+  ],
+  "author": "ME",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FamNew/Background.github.io/issues"
+  },
+  "homepage": "https://github.com/FamNew/Background.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

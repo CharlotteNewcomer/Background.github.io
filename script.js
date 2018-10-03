@@ -1,3 +1,7 @@
+var _ = require('lodash');
+
+console.log(_);
+
 var css = document.querySelector("h3"); // getting the h3 element
 var color1 = document.querySelector(".color1"); // getting the color input with the class of color1
 var color2 = document.querySelector(".color2"); // getting the color input with the class of color2
